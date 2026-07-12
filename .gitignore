@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Xcode — user-specific state (keep the .xcodeproj itself, drop per-user cruft)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+
+# Build output
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Your global ~/.gitignore_global ignores *.md, which would drop the README.
+# Re-include it here so `git add -A` always commits it.
+!README.md
